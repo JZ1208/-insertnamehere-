@@ -1,0 +1,126 @@
+body {
+  /* background-color: ivory; */
+  /*background-image: linear-gradient(#00000c,#000019,#000026,#000019,#00000c);*/
+  background-image: url(96119.jpg);
+  background-repeat: repeat;
+  font-family: "Trebuchet MS";
+  color: white;
+  margin: 30px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  margin-top: 50px
+}
+a {
+  text-decoration: none;
+   color:ivory;
+ }
+
+a:hover {
+  color: lightblue;
+  text-decoration: line-through;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  line-height: normal;
+  font-size: 55px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 25px
+}
+
+h3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 20px
+}
+
+p {
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height:normal;
+}
+
+strong {
+}
+
+#rh3 {
+  color: red;
+}
+
+#bh3 {
+  color:#95f1f9;
+}
+
+  .sidenav {
+        height: 500px;
+        width: auto;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        margin-left: 10px;
+        margin-top: 40px;
+        background-color: silver;
+        overflow-x: hidden;
+        padding-top: 25px;
+        padding-right: 10px;
+        border: 15px ridge ;
+        border-width: thick;
+        background-color: black;
+       }
+
+       .sidenav a {
+         padding: 6px 8px 6px 16px;
+         text-decoration: none;
+         font-size: 15px;
+         display: block;
+        }
+
+        .sidenav a:hover {
+          color: red;
+        }
+
+.main {
+  margin-left: 200px;
+  font-size: 30px;
+  padding:10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.topnav{
+  font-size: 20px;
+  background-color: dimgray;
+  background-image: url(bkmt.jfif);
+  text-align: left;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  padding-left: 20px;
+  position: fixed;
+  width: 1255px
+}
+
+.topnav a{
+  text-align: center;
+  padding: 5px 25px;
+  color: #3f077a;
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: red;
+}
+
+.topnav input[type='text']{
+  border: 2px double dimgray;
+  float:right;
+  margin-right: 20px;
+}
