@@ -23,7 +23,6 @@ a:hover {
 h1 {
   color: white;
   text-transform: uppercase;
-  line-height: normal;
   font-size: 55px;
 }
 
@@ -42,7 +41,6 @@ h3 {
 p {
   text-transform: uppercase;
   text-decoration: underline;
-  line-height:normal;
 }
 
 strong {
